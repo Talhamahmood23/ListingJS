@@ -2,10 +2,10 @@
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-    $serverName = "localhost";
-    $userName = "thaibbkz_thai2";
-    $password = "Thai1122Weeds";
-    $databaseName = "thaibbkz_thai";
+    $serverName = "";
+    $userName = "";
+    $password = "";
+    $databaseName = "";
 
     $sId = $_POST["id"];
 
