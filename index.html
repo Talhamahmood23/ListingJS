@@ -1,0 +1,584 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"> 
+    <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8">-->
+    <!--<script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"
+        integrity="sha256-+C0A5Ilqmu4QcSPxrlGpaZxJ04VjsRjKu+G82kl5UJk=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.bootstrap3.min.css"
+        integrity="sha256-ze/OEYGcFbPRmvCnrSeKbRTtjG4vGLHXgOqsyLFTRjg=" crossorigin="anonymous" />
+    <script src="./S_cripts/mapMarkerManagement.js"></script>
+    <script src="./S_cripts/secondPageManager.js"></script>
+    <link href="./_Style_Sheet/styles.css?v=1.2" rel="stylesheet">
+    <!-- <link href="./Stylesheet/language.css"> -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>THAI CANNABIS Manage by BOLD HEMP</title>
+    <meta name="description" content="Official Thai Weed Info: Find best dispensaries and cannabis Clubs near you. 
+Get store detail,contact detail, store reviews and store locations.
+Get Google Verified Cannabis stores in Thailand.">
+
+</head>
+ <body>
+        <!--<div id="loader"></div>-->
+        
+<div id="_wrapper">
+    
+   
+        
+        
+<!--       <button onclick="topFunction()" id="myBtn" title="Go to top" class=""><i class="fa fa-arrow-up"></i></button>-->
+        
+<!--        <script>-->
+<!--//a Get the button-->
+<!--let mybutton = document.getElementById("myBtn");-->
+
+<!--// When the user scrolls down 20px from the top of the document, show the button-->
+<!--window.onscroll = function() {scrollFunction()};-->
+
+<!--function scrollFunction() {-->
+<!--  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {-->
+<!--    mybutton.style.display = "block";-->
+<!--  } else {-->
+<!--    mybutton.style.display = "none";-->
+<!--  }-->
+<!--}-->
+
+<!--// When the user clicks on the button, scroll to the top of the document-->
+<!--function topFunction() {-->
+<!--  document.body.scrollTop = 0;-->
+<!--  document.documentElement.scrollTop = 0;-->
+<!--}-->
+<!--</script>-->
+        <div class="mainContainer" id="_mainContainer">
+            <!-- <script src="https://maps.googleapis.com/maps/api/js?key=API_KEY&callback=initMap"
+            async defer></script> -->
+            <!-- Load the initial map -->
+            <script src="./S_cripts/mapLoader.js"> </script>
+            <script
+                src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyD-i8acRfGlEWAWUL7aUrwBG2aLQyvprQw&callback=mapInitCallback"></script>
+
+            <!-- button to get my current location -->
+            
+            <!-- <button id="use-my-location" class="btn btn-default"
+                style=" display: none; position: absolute; top: 10px; left: 35%; cursor: pointer; z-index: 1000; font-size: medium;">Use
+                my location</button> -->
+
+            <!-- cross button on map -->
+            <svg id="_crossButtonOnMap" onclick="hideMap()" aria-hidden="true" focusable="false" data-prefix="far"
+                data-icon="circle-xmark" class="svg-inline--fa fa-circle-xmark " role="img"
+                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="36" font-size="36" color="#777"
+                aria-label="Close"
+                style="display:none; position: absolute; top: 10px; left: 10px; cursor: pointer; z-index: 1000;">
+                <path fill="currentColor"
+                    d="M175 175C184.4 165.7 199.6 165.7 208.1 175L255.1 222.1L303 175C312.4 165.7 327.6 165.7 336.1 175C346.3 184.4 346.3 199.6 336.1 208.1L289.9 255.1L336.1 303C346.3 312.4 346.3 327.6 336.1 336.1C327.6 346.3 312.4 346.3 303 336.1L255.1 289.9L208.1 336.1C199.6 346.3 184.4 346.3 175 336.1C165.7 327.6 165.7 312.4 175 303L222.1 255.1L175 208.1C165.7 199.6 165.7 184.4 175 175V175zM512 256C512 397.4 397.4 512 256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256zM256 48C141.1 48 48 141.1 48 256C48 370.9 141.1 464 256 464C370.9 464 464 370.9 464 256C464 141.1 370.9 48 256 48z">
+                </path>
+            </svg>
+
+            <!--  MAIN LEFT CONTAINER -->
+            <div class="leftContainer" id="_leftContainer" style="position: absolute; width: 420px">
+                
+
+                <!-- ---------------------------------------------------------------------------------- -->
+                <!-- 2nd page -->
+                <!-- HEADER -->
+                <div id="_secondPage" class="secondPage">
+                    <div id="secondPageMainContent" class="_secondPageMainContentBlurred">
+                        <div class="titleContainer mb-3" id="_titleContainer2">
+                            <svg aria-hidden="true" class="backBtn2ndPage" name = "backbtnsecndpg" id="_backBtn2ndPage" focusable="false"
+                                data-prefix="far" data-icon="arrow-left" class="svg-inline--fa fa-arrow-left " role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="26.25" height="30"
+                                font-size="30" color="#5e9952" aria-label="Back" style="position: absolute; top: 4px;">
+                                <path fill="currentColor"
+                                    d="M447.1 256c0 13.25-10.76 24.01-24.01 24.01H83.9l132.7 126.6c9.625 9.156 9.969 24.41 .8125 33.94c-9.156 9.594-24.34 9.938-33.94 .8125l-176-168C2.695 268.9 .0078 262.6 .0078 256S2.695 243.2 7.445 238.6l176-168C193 61.51 208.2 61.85 217.4 71.45c9.156 9.5 8.812 24.75-.8125 33.94l-132.7 126.6h340.1C437.2 232 447.1 242.8 447.1 256z">
+                                </path>
+                            </svg>
+                            <img src="./I_mages/weeden.svg" class="titleImage" id="_titleImage" />
+                            <svg aria-hidden="true" class="searchBtn2ndPage" id="_searchBtn2ndPage" focusable="false"
+                                data-prefix="far" data-icon="magnifying-glass" class="svg-inline--fa fa-magnifying-glass "
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="26.25"
+                                height="30" font-size="22" color="#5e9952" aria-label="Search"
+                                style="position: absolute; top: 4px; right: 0px;">
+                                <path fill="currentColor"
+                                    d="M504.1 471l-134-134C399.1 301.5 415.1 256.8 415.1 208c0-114.9-93.13-208-208-208S-.0002 93.13-.0002 208S93.12 416 207.1 416c48.79 0 93.55-16.91 129-45.04l134 134C475.7 509.7 481.9 512 488 512s12.28-2.344 16.97-7.031C514.3 495.6 514.3 480.4 504.1 471zM48 208c0-88.22 71.78-160 160-160s160 71.78 160 160s-71.78 160-160 160S48 296.2 48 208z">
+                                </path>
+                            </svg>
+                        </div>
+
+
+                        <!-- PLACE INFO -->
+                        <div class="nameAndReviewContainer" id="_nameAndReviewContainer2">
+    
+                            <div class="storeNameContainer2" id="_storeNameContainer2">
+                                <h3 class="storeName2" id="_storeName2">Store Name</h3>
+                            </div>
+                            <div class="reviewsContainer2" id="_reviewsContainer2">
+                                <h4 class="review2" id="_review2">Review</h4>
+                            </div>
+                            <div class="cityContainer2" id="_storeNameContainer2">
+                                <h4 class="cityName2" id="_cityName2">City Name</h4>
+                            </div>
+                        </div>
+
+                        <!-- PLACE PHOTOS -->
+                        <div class="shopImagesContainer2" id="_shopImagesContainer2">
+    
+                            <div id="_mainImageContainer2" class="mainImageContainer2">
+                                <img src="./I_mages/tempLoadingImage.gif" class="mainImage2" id="_mainImage2" />
+                            </div>
+    
+                            <div id="_childImageContainer1" class="childImageContainer1">
+                                <img src="./I_mages/tempLoadingImage.gif" class="childImage" id="_childImage1" />
+                            </div>
+    
+                            <div id="_childImageContainer2" class="childImageContainer1">
+                                <img src="./I_mages/tempLoadingImage.gif" class="childImage" id="_childImage2" />
+                            </div>
+    
+                            <div id="_childImageContainer3" class="childImageContainer1">
+                                <img src="./I_mages/tempLoadingImage.gif" class="childImage" id="_childImage3" />
+                            </div>
+    
+                            <div id="_childImageContainer4" class="childImageContainer1">
+                                <p class="childImage4Text" id="_RemainingImagesCount">X+</p>
+                                <img src="./I_mages/tempLoadingImage.gif" class="childImageWithText" id="_childImage4" />
+                            </div>
+
+                            <!--MODAL PHOTOS SLIDER -->
+                            <div id="myModal" class="modal">
+                                <span class="close cursor" onclick="closeModal()" style="color:white; font-size:40px;">&times;</span>
+                                <div class="modal-content">
+                                    <div class="mySlides">
+                                        <img style="width:900px; height: 700px;">
+                                    </div>
+    
+                                     <!--Next/previous controls -->
+                                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- LINKS -->
+                        <div id="_linksContainer" class="linksContainer ">
+                            <div id="_linksItemContainer1" class="linksItemContainer col-4">
+                                <a id="mapsLink">
+                                    <!-- <img src="./Images/locationOnMaps.png"  /> -->
+                                    <div id="linkItemImage1" class="linkItemImage"
+                                        style="border-radius:50px;cursor:pointer;border:1px solid #61646e;display:inline-block;overflow:hidden;margin-right:5px;margin-left:5px;padding:10px; width:50px;height:50px;text-align:center;font-size:22px">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="location-dot"
+                                            class="svg-inline--fa fa-location-dot " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="20"
+                                            color="#6b985a">
+                                            <path fill="currentColor"
+                                                d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z">
+                                            </path>
+                                        </svg>
+                                        <div
+                                            style="font-size:12px;margin-top:20px;position:absolute;width:70px;margin-left:-20px;color:#61646f">
+                                            Directions</div>
+                                    </div>
+                                </a>
+                                <!-- <p id="_linkItemName1" class="linkItemName">Item name</p> -->
+                            </div>
+
+                            <div id="_linksItemContainer2" class="linksItemContainer col-4">
+                                <a id="phoneLink">
+                                    <!-- <img src="./Images/phone_btn.png" /> -->
+                                    <div id="linkItemImage2" class="linkItemImage"
+                                        style="border-radius:50px;cursor:pointer;border:1px solid #61646e;display:inline-block;overflow:hidden;margin-right:5px;margin-left:5px;padding:10px;    padding-top: 13px; width:50px;height:50px;text-align:center;font-size:22px">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone"
+                                            class="svg-inline--fa fa-phone " role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 512 512" width="22" color="#6b985a">
+                                            <path fill="currentColor"
+                                                d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z">
+                                            </path>
+                                        </svg>
+                                        <div
+                                            style="font-size:12px;margin-top:22px;position:absolute;width:70px;margin-left:-20px;color:#61646f">
+                                            Call</div>
+                                    </div>
+                                </a>
+                                <!-- <p id="_linkItemName2" class="linkItemName">Item name</p> -->
+                            </div>
+
+                            <div id="_linksItemContainer3" class="linksItemContainer col-4">
+                                <a id="urlLink">
+                                    <!-- <img src="./Images/website_btn.png" /> -->
+                                    <div id="linkItemImage3" class="linkItemImage"
+                                        style="border-radius:50px;cursor:pointer;border:1px solid #61646e;display:inline-block;overflow:hidden;margin-right:5px;margin-left:5px;padding:10px;    padding-top: 15px; width:50px;height:50px;text-align:center;font-size:22px">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="link"
+                                            class="svg-inline--fa fa-link " role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 640 512" width="22" color="#6b985a">
+                                            <path fill="currentColor"
+                                                d="M579.8 267.7c56.5-56.5 56.5-148 0-204.5c-50-50-128.8-56.5-186.3-15.4l-1.6 1.1c-14.4 10.3-17.7 30.3-7.4 44.6s30.3 17.7 44.6 7.4l1.6-1.1c32.1-22.9 76-19.3 103.8 8.6c31.5 31.5 31.5 82.5 0 114L422.3 334.8c-31.5 31.5-82.5 31.5-114 0c-27.9-27.9-31.5-71.8-8.6-103.8l1.1-1.6c10.3-14.4 6.9-34.4-7.4-44.6s-34.4-6.9-44.6 7.4l-1.1 1.6C206.5 251.2 213 330 263 380c56.5 56.5 148 56.5 204.5 0L579.8 267.7zM60.2 244.3c-56.5 56.5-56.5 148 0 204.5c50 50 128.8 56.5 186.3 15.4l1.6-1.1c14.4-10.3 17.7-30.3 7.4-44.6s-30.3-17.7-44.6-7.4l-1.6 1.1c-32.1 22.9-76 19.3-103.8-8.6C74 372 74 321 105.5 289.5L217.7 177.2c31.5-31.5 82.5-31.5 114 0c27.9 27.9 31.5 71.8 8.6 103.9l-1.1 1.6c-10.3 14.4-6.9 34.4 7.4 44.6s34.4 6.9 44.6-7.4l1.1-1.6C433.5 260.8 427 182 377 132c-56.5-56.5-148-56.5-204.5 0L60.2 244.3z">
+                                            </path>
+                                        </svg>
+                                        <div
+                                            style="font-size:12px;margin-top:23px;position:absolute;width:70px;margin-left:-20px;color:#61646f">
+                                            Website</div>
+                                    </div>
+                                </a>
+                                <!-- <p id="_linkItemName3" class="linkItemName">Item name</p> -->
+                            </div>
+                        </div>
+
+                        <div id="_hoursOfOperationBox" class="hoursOfOperationBox">
+                            <h3 style=" color: black;"><b>Hours of Operation</b></h3>
+                    
+                            <!--<p id="hoMonday">Monday:</p>-->
+                            <!--<p id="hoTuesday">Tuesday:</p>-->
+                            <!--<p id="hoWednesday">Wednesday:</p>-->
+                            <!--<p id="hoThursday">Thursday:</p>-->
+                            <!--<p id="hoFriday">Friday:</p>-->
+                            <!--<p id="hoSaturday">Saturday:</p>-->
+                            <!--<p id="hoSunday">Sunday:</p>        -->
+                    
+    
+                            <p class="openingHoursTextStyleOpen" id="hoMonday">Monday:</p>
+                            <p class="openingHoursTextStyleOpen" id="hoTuesday">Tuesday:</p>
+                            <p class="openingHoursTextStyleOpen" id="hoWednesday">Wednesday:</p>
+                            <p class="openingHoursTextStyleOpen" id="hoThursday">Thursday:</p>
+                            <p class="openingHoursTextStyleOpen" id="hoFriday">Friday:</p>
+                            <p class="openingHoursTextStyleOpen" id="hoSaturday">Saturday:</p>
+                            <p class="openingHoursTextStyleOpen" id="hoSunday">Sunday:</p>
+                        </div>
+
+                        <!--<h3 style="color: black; padding: 15px;"><b>Reviews Summary</b></h3>-->
+                        <img src="/I_mages/userReview.gif" alt="User Review" width="400" height="400">    
+                        <div id="_userReviewsContainer" class="userReviewsContainer"></div>
+                    
+                    </div>
+                    
+                    
+                    <!-- For non verified Sellers -->
+                    <div id="nonVerifiedSellerPopupParent" class="_nonVerifiedSellerPopupParent">
+
+                        <div id="popupLogoDiv" class="_popupLogoDiv">
+                            <img id="popupLogo" class="_popupLogo">
+                        </div>
+
+                        <div id="popupShopNameDiv" class="_popupShopNameDiv">
+                            <p id="popupShopName" class="_popupShopName"> Shop Name </p>
+                        </div>
+
+                        <div id="popupStaticDivText1" class="_popupStaticDivText1">
+                            <p id="popupStaticText1" class="_popupStaticText1">
+                                THIS SHOP HAS NOT BEEN VERIFIED OR QUALIFIED FOR LISTING
+                            </p>
+                        </div>
+
+                        <div id="popupStaticDivText2" class="_popupStaticDivText2">
+                            <p id="popupStaticText2" class="_popupStaticText2">
+                                The selected shop has not submitted any product selection and details or don't know about the Cannabis, so we are unable to show specific prices, products, and photos for the shop.<br><br>
+                                If you are the shop owner, please contact our team via line at @bld888 to add in the details.<br/>
+                                <b>Click popup to go back!</b>
+                            </p>
+                        </div>
+
+                    </div>
+                    
+                    <!-- For NON-Qualified Stores-->
+                    
+                    <!-- <div id="nonQualifiedSellerPopupParent" class="_nonQualifiedSellerPopupParent">-->
+
+                    <!--    <div id="popupLogoDiv" class="_popupLogoDiv">-->
+                    <!--        <img id="popupLogo" class="_popupLogo">-->
+                    <!--    </div>-->
+
+                    <!--    <div id="popupShopNameDiv" class="_popupShopNameDiv">-->
+                    <!--        <p id="popupShopName" class="_popupShopName"> Shop Name </p>-->
+                    <!--    </div>-->
+
+                    <!--    <div id="popupStaticDivText1" class="_popupStaticDivText1">-->
+                    <!--        <p id="popupStaticText1" class="_popupStaticText1">-->
+                    <!--            THIS SHOP HAS NOT BEEN QUALIFIED FOR LISTING.-->
+                    <!--        </p>-->
+                    <!--    </div>-->
+
+                    <!--    <div id="popupStaticDivText2" class="_popupStaticDivText2">-->
+                    <!--        <p id="popupStaticText2" class="_popupStaticText2">-->
+                    <!--            The selected shop has not been Qualified to post any Product and Details because they don't know about Cannabis.<br><br>-->
+                    <!--            If you are the shop owner, please contact our team via line at @bld888 to get Qualification.<br/>-->
+                    <!--            <b>Click popup to go back!</b>-->
+                    <!--        </p>-->
+                    <!--    </div>-->
+
+                    <!--</div>-->
+                
+                </div>
+
+
+                <!-- ---------------------------------------------------------------------------------- -->
+
+
+                <!-- ---------------------------------------------------------------------------------- -->
+                <!-- 1st page -->
+                <div id="_firstPage">
+                    
+<!--                         <button onclick="topFunction()" id="myBtn" title="Go to top" class=""><i class="fa fa-arrow-up"></i></button>-->
+        
+<!--        <script>-->
+<!--// Get the button-->
+<!--let mybutton = document.getElementById("myBtn");-->
+
+<!--// When the user scrolls down 20px from the top of the document, show the button-->
+<!--window.onscroll = function() {scrollFunction()};-->
+
+<!--function scrollFunction() {-->
+<!--  if (document._firstPage.scrollTop > 20 || document.documentElement.scrollTop > 20) {-->
+<!--    mybutton.style.display = "block";-->
+<!--  } else {-->
+<!--    mybutton.style.display = "none";-->
+<!--  }-->
+<!--}-->
+
+<!--// When the user clicks on the button, scroll to the top of the document-->
+<!--function topFunction() {-->
+<!--  document._firstPage.scrollTop = 0;-->
+<!--  document.documentElement.scrollTop = 0;-->
+<!--}-->
+<!--</script>-->
+                    
+                    
+                    <div class="titleContainer mb-3" id="_titleContainer">
+
+                        <a href="https://thaiweeds.info/cn" class="button">中文</a>
+                           
+                        
+                        <img src="./I_mages/weeden.svg" class="titleImage" id="_titleImage" />
+                        <svg onclick="hideMap()" id="mapSVG" aria-hidden="true" focusable="false" data-prefix="far"
+                            data-icon="map-location-dot" class="svg-inline--fa fa-map-location-dot " role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" width="33.75" font-size="30"
+                            aria-label="Current Location" color="rgb(94, 151, 227)"
+                            style="position: absolute; top: 20px; right: 20px; cursor: pointer;">
+                            <path fill="currentColor"
+                                d="M408 119.1C408 128.6 406.2 138.3 402.1 148.6C397.3 166.1 387.4 187.5 375.6 207.8L375.5 207.1C372.4 213.3 369.2 218.7 365.9 224C361.5 231 356.9 237.1 352.4 244.8L352 245.4C333.9 272.3 315.3 296.4 302.8 311.1C295.1 321.6 280.9 321.6 273.2 311.1C260.7 296.4 242.1 272.3 224 245.4C205.6 218.1 187.7 187.9 177.3 160.9C176.5 158.8 175.7 156.7 174.1 154.6C170.6 142 168 130.3 168 120C168 115.3 168.3 110.7 168.8 106.2C175.6 46.44 226.4 0 288 0C354.3 0 408 53.73 408 120V119.1zM288 151.1C310.1 151.1 328 134.1 328 111.1C328 89.91 310.1 71.1 288 71.1C265.9 71.1 248 89.91 248 111.1C248 134.1 265.9 151.1 288 151.1zM352 300.6C365.5 282.4 380.8 260.7 394.7 238.2C396.5 235.3 398.2 232.4 400 229.5V453.7L528 407.2V154.3L419.3 193.8C421.5 189.1 423.6 184.5 425.6 179.8C431.5 165.8 436.6 150.7 438.8 135.6L543.8 97.44C551.2 94.77 559.4 95.85 565.8 100.3C572.2 104.8 576 112.2 576 119.1V424C576 434.1 569.7 443.1 560.2 446.6L384.2 510.6C378.9 512.5 373.1 512.5 367.8 510.6L200 449.5L32.2 510.6C24.84 513.2 16.64 512.2 10.23 507.7C3.819 503.2 0 495.8 0 488V183.1C0 173.9 6.314 164.9 15.8 161.4L136 117.7C136 118.5 136 119.2 136 119.1C136 135.1 139.7 150.7 144.9 165.6L48 200.8V453.7L176 407.2V229.5C177.8 232.4 179.5 235.3 181.3 238.2C195.2 260.7 210.5 282.4 224 300.6V407.2L352 453.7V300.6z">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <div class="searchBarContainer" id="_searchBarContainer">
+                        <img src="./I_mages/search_btn.png" class="searchBarLogo" id="_searchBarImage" />
+                        <input type="text" placeholder="Search by city, store..." class="searchBar" id="_searchBar">
+                    </div>
+
+                    <!--  CITY SELECTOR -->
+                    <div class="citySelectorContainer" id="_citySelectorContainer">
+
+                        <script>
+                            $(document).ready(function () {
+                                $('select').selectize({
+                                    sortField: 'text'
+                                });
+                            });
+                        </script>
+
+                        <img src="./I_mages/maps_pin.png" class="searchBarLogo" id="_searchBarImage" />
+
+                        <select id="_citySelector" class="citySelector" placeholder="All of Thailand">
+                            <option value="aot">All of Thailand</option>
+                            <option value="Bangkok">Bangkok</option>
+                            <option value="Nonthaburi">Nonthaburi</option>
+                            <option value="Nonthaburi">Pak-Kret</option>
+                            <option value="Hat">Hat-Yai</option>
+                            <!--<option value="Surasak">Chaophraya-Surasak</option>-->
+                            <option value="Thani">Surat-Thani</option>
+                            <option value="Ratchasima">Nakhon-Ratchasima</option>
+                            <option value="Mai">Chiang-Mai</option>
+                            <option value="Thani">Udon-Thani</option>
+                            <option value="Buri">Pattaya</option>
+                            <option value="Kaen">Khon-Kaen</option>
+                            <option value="Thammarat">Nakhon-Si-Thammarat</option>
+                            <option value="Chon">Laem-Chabang</option>
+                            <!--<option value="Pathum">Rangsit</option>-->
+                            <option value="Sawan">Nakhon-Sawan</option>
+                            <option value="Phuket">Phuket</option>
+                            <option value="Rai">Chiang-Rai</option>
+                            <option value="Ratchathani">Ubon-Ratchathani</option>
+                            <option value="Pathom">Nakhon-Pathom</option>
+                            <option value="Thani">Ko-Samui</option>
+                            <option value="Sakhon">Samut-Sakhon</option>
+                            <option value="Phitsanulok">Phitsanulok</option>
+                            <option value="Rayong">Rayong</option>
+                            <option value="Songkhla">Songkhla</option>
+                            <option value="Yala">Yala</option>
+                            <option value="Trang">Trang</option>
+                            <option value="Nonthaburi">Om-Noi</option>
+                            <option value="Nakhon">Sakon-Nakhon</option>
+                            <option value="Lampang">Lampang</option>
+                            <option value="Prakan">Samut-Prakan</option>
+                            <option value="Ayutthaya">Phra-Nakhon-Si-Ayutthaya</option>
+                            <option value="Tak">Mae-Sot</option>
+                        </select>
+                        <!--    <option value="aot">All of Thailand</option>-->
+                        <!--    <option value="Bangkok">Bangkok</option>-->
+                        <!--    <option value="Nonthaburi">Nonthaburi</option>-->
+                        <!--    <option value="Pak-Kret">Pak-Kret</option>-->
+                        <!--    <option value="Hat-Yai">Hat-Yai</option>-->
+                        <!--    <option value="Chaophraya-Surasak">Chaophraya-Surasak</option>-->
+                        <!--    <option value="Surat-Thani">Surat-Thani</option>-->
+                        <!--    <option value="Nakhon-Ratchasima">Nakhon-Ratchasima</option>-->
+                        <!--    <option value="Chiang-Mai">Chiang-Mai</option>-->
+                        <!--    <option value="Udon-Thani">Udon-Thani</option>-->
+                        <!--    <option value="Pattaya">Pattaya</option>-->
+                        <!--    <option value="Khon-Kaen">Khon-Kaen</option>-->
+                        <!--    <option value="Nakhon-Si-Thammarat">Nakhon-Si-Thammarat</option>-->
+                        <!--    <option value="Laem-Chabang">Laem-Chabang</option>-->
+                        <!--    <option value="Rangsit">Rangsit</option>-->
+                        <!--    <option value="Nakhon-Sawan">Nakhon-Sawan</option>-->
+                        <!--    <option value="Phuket">Phuket</option>-->
+                        <!--    <option value="Chiang-Rai">Chiang-Rai</option>-->
+                        <!--    <option value="Ubon-Ratchathani">Ubon-Ratchathani</option>-->
+                        <!--    <option value="Nakhon-Pathom">Nakhon-Pathom</option>-->
+                        <!--    <option value="Ko-Samui">Ko-Samui</option>-->
+                        <!--    <option value="Samut-Sakhon">Samut-Sakhon</option>-->
+                        <!--    <option value="Phitsanulok">Phitsanulok</option>-->
+                        <!--    <option value="Rayong">Rayong</option>-->
+                        <!--    <option value="Songkhla">Songkhla</option>-->
+                        <!--    <option value="Yala">Yala</option>-->
+                        <!--    <option value="Trang">Trang</option>-->
+                        <!--    <option value="Om-Noi">Om-Noi</option>-->
+                        <!--    <option value="Sakon-Nakhon">Sakon-Nakhon</option>-->
+                        <!--    <option value="Lampang">Lampang</option>-->
+                        <!--    <option value="Samut-Prakan">Samut-Prakan</option>-->
+                        <!--    <option value="Phra-Nakhon-Si-Ayutthaya">Phra-Nakhon-Si-Ayutthaya</option>-->
+                        <!--    <option value="Mae-Sot">Mae-Sot</option>-->
+                        <!--</select>-->
+                    </div>
+
+                    <!-- FILTER'S DIV -->
+                    <div id="_FilterSection" class="filterContainer " style="display:none;">
+                        <div class="col-12">
+                            <h3 class="">Filters</h3>
+                        </div>
+
+                        <div class="  col-5 card ml-4">
+                            <div class="text-secondary ">
+                                <h4 class="">Open</h4>
+                                <small>showing open, and closed</small>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Stores List -->
+
+                   <div class="col-12">
+                        <h4 class="mt-5 mb-3" id="shopResultsText" style="font-weight: 800;">Shop Results</h4>
+                         <a href="https://bailideweed.com/"><img src="./I_mages/enter.png" width="370" height="100"></a> 
+                       
+                    </div>
+                    <div class="listContainerParent" id="_ListContainer">
+                        <script src="./S_cripts/loadStores.js"></script>
+                    </div>
+                </div>
+               
+            </div>
+      
+        </div>
+
+</div>
+    </body>
+
+
+<script src="./S_cripts/mapMarkerCallback.js"></script>
+
+<script>
+// $( "#loader" ).on( "ready", function(){
+//     var loader = document.getElementById('loader');
+    
+//         console.log("talha here", loader);
+
+//         loader.style.display == "none !important";
+// }); 
+// $(document).ready(function(){
+    
+//      var loader = document.getElementById('loader');
+    
+//         console.log("talha here", loader);
+
+//         loader.style.display == "none !important";
+// });
+
+    function hideMap() {
+        if (window.innerWidth > 600) {
+
+            if (document.getElementById('_leftContainer').style.position == 'fixed') {
+
+                var pathElement1 = document.getElementById("_firstPage");
+                pathElement1.style.width = '100%';
+                pathElement1.style.margin = '0';
+
+                var pathElement2 = document.getElementById("_secondPage");
+                pathElement2.style.width = '100%';
+                pathElement2.style.margin = '0';
+
+
+                document.getElementById("mapSVG").style.color = 'rgb(94, 151, 227)';
+                document.getElementById('_leftContainer').style.position = 'absolute';
+                document.getElementById('_leftContainer').style.width = '420px';
+                // document.getElementById('_leftContainer').style.paddingRight = '0';
+                // document.getElementById("_leftContainer").style.paddingLeft = "0";
+            }
+            else {
+                var pathElement1 = document.getElementById("_firstPage");
+                pathElement1.style.width = '400px';
+                pathElement1.style.margin = 'auto';
+
+                var pathElement2 = document.getElementById("_secondPage");
+                pathElement2.style.width = '400px';
+                pathElement2.style.margin = 'auto';
+
+                document.getElementById("mapSVG").style.color = '#999';
+                document.getElementById('_leftContainer').style.position = 'fixed';
+                document.getElementById('_leftContainer').style.width = '100%';
+                // document.getElementById('_leftContainer').style.paddingRight = '25%';
+                // document.getElementById("_leftContainer").style.paddingLeft = "25%";
+            }
+        }
+        else {
+            if (document.getElementById('_leftContainer').style.display == 'none') {
+
+                document.getElementById('_leftContainer').style.display = 'block';
+                document.getElementById('_crossButtonOnMap').style.display = 'none';
+                document.getElementById('use-my-location').style.display = 'none';
+
+
+            }
+            else {
+                document.getElementById('_leftContainer').style.display = 'none';
+                document.getElementById('_crossButtonOnMap').style.display = 'block';
+                document.getElementById('use-my-location').style.display = 'block';
+
+            }
+        }
+    }
+</script>
+
+<
+
+
+</html>
+
+

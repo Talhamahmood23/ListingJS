@@ -1,0 +1,449 @@
+[08-Mar-2023 20:38:45 UTC] PHP Parse error:  syntax error, unexpected variable "$databaseName" in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 7
+[08-Mar-2023 20:38:58 UTC] PHP Parse error:  syntax error, unexpected variable "$databaseName" in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 7
+[08-Mar-2023 20:43:42 UTC] PHP Warning:  Undefined property: mysqli_result::$rows in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 26
+[08-Mar-2023 20:48:06 UTC] PHP Warning:  Undefined property: mysqli_result::$rows in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 26
+[08-Mar-2023 20:50:09 UTC] PHP Warning:  Undefined property: mysqli_result::$rows in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 26
+[08-Mar-2023 20:50:23 UTC] PHP Warning:  Undefined property: mysqli_result::$rows in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 26
+[08-Mar-2023 20:55:35 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:37 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:39 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:42 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:43 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:43 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:44 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:44 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:55:45 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:56:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_fetch_assoc() in /home2new/mewsouco/public_html/app/getStoreDetails.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 20:56:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli::mysqli_fetch_assoc() in /home2new/mewsouco/public_html/app/getStoreDetails.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 21:00:02 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[08-Mar-2023 21:00:03 UTC] PHP Warning:  Undefined variable $row in /home2new/mewsouco/public_html/app/getStoreDetails.php on line 30
+[09-Mar-2023 00:16:20 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:17:43 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:18:29 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:19:17 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:21:08 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:22:34 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:25:19 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:26:24 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:27:22 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:29:05 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:30:40 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:49:04 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:50:17 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 00:52:01 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[09-Mar-2023 01:25:07 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[09-Mar-2023 01:44:27 UTC] PHP Warning:  Attempt to read property "author_names" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[09-Mar-2023 01:44:30 UTC] PHP Warning:  Attempt to read property "author_names" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[09-Mar-2023 01:44:46 UTC] PHP Warning:  Attempt to read property "author_names" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[09-Mar-2023 01:44:47 UTC] PHP Warning:  Attempt to read property "author_names" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[09-Mar-2023 01:45:30 UTC] PHP Warning:  Attempt to read property "author_names" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[09-Mar-2023 01:45:31 UTC] PHP Warning:  Attempt to read property "author_names" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[09-Mar-2023 01:56:42 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 25
+[09-Mar-2023 01:56:43 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 25
+[09-Mar-2023 01:56:57 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 25
+[09-Mar-2023 01:56:59 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 25
+[09-Mar-2023 01:57:49 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 25
+[09-Mar-2023 01:58:35 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 25
+[10-Mar-2023 18:21:43 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 18:51:30 UTC] PHP Warning:  Undefined variable $serverName in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 18:51:30 UTC] PHP Warning:  Undefined variable $userName in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 18:51:30 UTC] PHP Warning:  Undefined variable $password in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 18:51:30 UTC] PHP Warning:  Undefined variable $databaseName in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 18:51:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 18:51:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mewsouco_thai'@'srv081.doctorhoster.com' (using password: YES) in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 18:54:24 UTC] PHP Warning:  Undefined variable $data in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 23
+[10-Mar-2023 18:54:24 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:27
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(27): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 27
+[10-Mar-2023 18:54:56 UTC] PHP Warning:  Undefined variable $data in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 23
+[10-Mar-2023 18:56:54 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 31
+[10-Mar-2023 18:56:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:31
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 31
+[10-Mar-2023 19:03:21 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:10
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 10
+[10-Mar-2023 19:09:36 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 29
+[10-Mar-2023 19:13:09 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:13:14 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:14:14 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:14:20 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:05 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:05 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:07 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:07 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:20 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:20 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:21 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:21 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:39 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:15:39 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:16:22 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:16:23 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:16:29 UTC] PHP Warning:  Undefined variable $HTTP_RAW_POST_DATA in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 9
+[10-Mar-2023 19:18:48 UTC] PHP Warning:  Undefined variable $storeId in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[10-Mar-2023 19:19:01 UTC] PHP Warning:  Undefined variable $storeId in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[10-Mar-2023 19:20:15 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 18
+[10-Mar-2023 19:20:18 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 18
+[10-Mar-2023 19:20:38 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 18
+[10-Mar-2023 19:20:41 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:18
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 18
+[10-Mar-2023 19:21:52 UTC] PHP Warning:  Attempt to read property "id" on string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 18
+[10-Mar-2023 19:21:55 UTC] PHP Warning:  Attempt to read property "id" on string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 18
+[10-Mar-2023 19:22:53 UTC] PHP Warning:  Attempt to read property "id" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 17
+[10-Mar-2023 19:22:56 UTC] PHP Warning:  Attempt to read property "id" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 17
+[10-Mar-2023 19:23:01 UTC] PHP Warning:  Attempt to read property "id" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 17
+[10-Mar-2023 19:23:39 UTC] PHP Warning:  Attempt to read property "id" on array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 16
+[10-Mar-2023 19:32:21 UTC] PHP Warning:  Undefined property: mysqli_result::$error in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 19:32:24 UTC] PHP Warning:  Undefined property: mysqli_result::$error in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 19:43:56 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:36
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 19:43:58 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:36
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 19:44:33 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:36
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 19:44:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:36
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 19:44:47 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "row" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:36
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[10-Mar-2023 20:11:48 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 37
+[10-Mar-2023 20:12:00 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 37
+[10-Mar-2023 20:12:01 UTC] PHP Parse error:  syntax error, unexpected token ";" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 37
+[10-Mar-2023 23:16:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mewsouco_thaiweeds'@'srv081.doctorhoster.com' (using password: YES) in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 11
+[10-Mar-2023 23:16:48 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mewsouco_thaiweeds'@'srv081.doctorhoster.com' (using password: YES) in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 23:16:53 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'mewsouco_thaiweeds'@'srv081.doctorhoster.com' (using password: YES) in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 12
+[10-Mar-2023 23:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[10-Mar-2023 23:19:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[10-Mar-2023 23:20:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_fetch_array() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:28
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[10-Mar-2023 23:25:00 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[10-Mar-2023 23:25:27 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:24
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(24): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[10-Mar-2023 23:25:30 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:24
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(24): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[10-Mar-2023 23:34:04 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[10-Mar-2023 23:35:58 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 26
+[10-Mar-2023 23:37:09 UTC] PHP Fatal error:  Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 26
+[10-Mar-2023 23:37:13 UTC] PHP Fatal error:  Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:26
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 26
+[10-Mar-2023 23:38:16 UTC] PHP Fatal error:  Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 27
+[10-Mar-2023 23:38:29 UTC] PHP Fatal error:  Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 27
+[10-Mar-2023 23:39:50 UTC] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:27
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 27
+[10-Mar-2023 23:42:01 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 27
+[10-Mar-2023 23:42:57 UTC] PHP Warning:  Undefined array key 5 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 31
+[10-Mar-2023 23:43:13 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 30
+[10-Mar-2023 23:43:17 UTC] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:30
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 30
+[10-Mar-2023 23:43:40 UTC] PHP Warning:  Undefined array key 5 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 30
+[10-Mar-2023 23:51:28 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:51:49 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:51:50 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:53:44 UTC] PHP Warning:  Undefined variable $weekDays in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:53:44 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:54:09 UTC] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:54:10 UTC] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:54:42 UTC] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:55:33 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:55:35 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:58:12 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[10-Mar-2023 23:58:35 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:32
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[11-Mar-2023 00:32:09 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:30
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(30): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 30
+[11-Mar-2023 00:32:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 32
+[11-Mar-2023 00:35:18 UTC] PHP Warning:  Undefined variable $authorNames in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 00:35:18 UTC] PHP Warning:  Undefined variable $photos in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 00:35:18 UTC] PHP Warning:  Undefined variable $ratings in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 00:35:18 UTC] PHP Warning:  Undefined variable $reviews in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 01:43:15 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 01:56:05 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 02:48:28 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 02:48:30 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 03:04:33 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 38
+[11-Mar-2023 03:06:42 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 38
+[11-Mar-2023 03:06:42 UTC] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 38
+[11-Mar-2023 03:07:42 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 38
+[11-Mar-2023 03:07:42 UTC] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:38
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 38
+[11-Mar-2023 03:08:26 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 40
+[11-Mar-2023 03:08:26 UTC] PHP Fatal error:  Uncaught TypeError: sizeof(): Argument #1 ($value) must be of type Countable|array, null given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:40
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 40
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:49 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:08:56 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:10:30 UTC] PHP Warning:  Undefined array key 1 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 39
+[11-Mar-2023 03:10:30 UTC] PHP Warning:  Undefined array key 2 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 40
+[11-Mar-2023 03:10:30 UTC] PHP Warning:  Undefined array key 3 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 41
+[11-Mar-2023 03:10:30 UTC] PHP Warning:  Undefined array key 4 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 03:10:30 UTC] PHP Warning:  Undefined array key 5 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 43
+[11-Mar-2023 03:10:30 UTC] PHP Warning:  Undefined array key 6 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 44
+[11-Mar-2023 03:24:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 03:24:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 03:24:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:33
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 03:50:23 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:24
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(24): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[11-Mar-2023 03:50:28 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:24
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(24): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[11-Mar-2023 03:51:39 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:24
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(24): mysqli_fetch_assoc(false)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 24
+[11-Mar-2023 04:28:38 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 04:30:46 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:30:46 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:31:04 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:31:04 UTC] PHP Warning:  Trying to access array offset on value of type null in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:31:21 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:31:22 UTC] PHP Warning:  Undefined variable $reviewSplit in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:33:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:34:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function oftype() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:34:47 UTC] PHP Fatal error:  Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:34:50 UTC] PHP Fatal error:  Uncaught TypeError: get_class(): Argument #1 ($object) must be of type object, string given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:35
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 35
+[11-Mar-2023 04:35:41 UTC] PHP Warning:  Undefined property: stdClass::$authorNames in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 36
+[11-Mar-2023 04:46:43 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:47
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 47
+[11-Mar-2023 04:46:45 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:47
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 47
+[11-Mar-2023 12:35:20 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 34
+[11-Mar-2023 16:45:06 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 33
+[11-Mar-2023 16:50:09 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[11-Mar-2023 16:51:42 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[11-Mar-2023 16:51:45 UTC] PHP Warning:  Array to string conversion in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 28
+[11-Mar-2023 16:55:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:40
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 40
+[11-Mar-2023 16:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:40
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 40
+[11-Mar-2023 16:59:38 UTC] PHP Warning:  Undefined array key 0 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 16:59:40 UTC] PHP Warning:  Undefined array key 0 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 17:00:27 UTC] PHP Warning:  Undefined array key 0 in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 17:03:23 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:42
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(42): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 17:03:24 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:42
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(42): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 42
+[11-Mar-2023 17:18:15 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:54
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(54): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 54
+[11-Mar-2023 17:33:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function typeof() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:55
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 55
+[11-Mar-2023 17:41:49 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:69
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(69): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 69
+[11-Mar-2023 17:41:51 UTC] PHP Fatal error:  Uncaught TypeError: json_decode(): Argument #1 ($json) must be of type string, array given in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:69
+Stack trace:
+#0 /home2new/mewsouco/public_html/app/api/getStoreReviews.php(69): json_decode(Array)
+#1 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 69
+[12-Mar-2023 23:18:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:22
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 22
+[12-Mar-2023 23:25:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home2new/mewsouco/public_html/app/api/getStoreReviews.php:14
+Stack trace:
+#0 {main}
+  thrown in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 14
+[12-Mar-2023 23:44:15 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 10
+[12-Mar-2023 23:48:09 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 10
+[12-Mar-2023 23:50:20 UTC] PHP Warning:  Undefined array key "id" in /home2new/mewsouco/public_html/app/api/getStoreReviews.php on line 10
+[13-Mar-2023 12:18:14 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[13-Mar-2023 12:19:36 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[13-Mar-2023 12:22:46 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[13-Mar-2023 12:32:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[13-Mar-2023 12:34:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[13-Mar-2023 12:35:09 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[13-Mar-2023 12:36:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreReviews.php on line 12
+[13-Mar-2023 12:38:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreReviews.php on line 12
+[19-Mar-2023 19:58:10 UTC] PHP Warning:  mysqli_connect(): (HY000/1130): Host 'premium205-3.web-hosting.com' is not allowed to connect to this MariaDB server in /home/thaibbkz/public_html/api/getStoreDetails.php on line 10
+[19-Mar-2023 20:20:04 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/thaibbkz/public_html/api/getStoreDetails.php on line 23
+[19-Mar-2023 20:20:34 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/thaibbkz/public_html/api/getStoreDetails.php on line 23
+[19-Mar-2023 20:20:39 UTC] PHP Warning:  Attempt to read property "num_rows" on bool in /home/thaibbkz/public_html/api/getStoreDetails.php on line 23
